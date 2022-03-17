@@ -18,7 +18,7 @@ You may modify this scipt to suit your needs.
 To see a list of avaliable options for any script, run `python [script_name].py --help`.
 
 The workflow consists of 5 parts.
-1. Run CAE method
+1. Run GalilAI method
     * run the `plan_mujoco.py` script with desired flags.
 2. Collect additional (state, action) pairs for baseline experiments.
     * run `plan_mujoco.py` again, now with `--baseline_only True` and making sure you specify the same output path as before.
